@@ -22,27 +22,27 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The apperance of the button changes depending on the parameters you provide through react props
 
 ### Availible Parameters
-Change button style
-`variant` | null | default | outline | text
-Change color
-`color`   | null | default | primary | secondary | danger
-Change Size
-`size`    | null | sm      | md      | lg
+Change button style <br>
+`variant` | null | default | outline | text <br>
+Change color <br>
+`color`   | null | default | primary | secondary | danger <br>
+Change Size <br>
+`size`    | null | sm      | md      | lg <br>
 
 #### Icons
 This projects is using googles material design icon library, so any icon from 
 [https://fonts.google.com/icons?selected=Material+Icons](here) should work.
 
-Add Icon before text
-`startIcon` | Ex: add_shopping_cart
-Add Icon after text
-`endIcon` | Ex: add_shopping_cart
+Add Icon before text <br>
+`startIcon` | Ex: add_shopping_cart <br>
+Add Icon after text <br>
+`endIcon` | Ex: add_shopping_cart <br>
 
 #### Boolean Parameters
-Disabled Button
-`disabled`
-Remove Button shadow
-`disableShadow`
+Disabled Button <br>
+`disabled` <br>
+Remove Button shadow <br>
+`disableShadow` <br>
 
 ## About This Project
 This application/site was created as a submission to a DevChallenges challenge. The challenge was to build an application to complete the given user stories.
