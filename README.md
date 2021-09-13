@@ -31,7 +31,7 @@ Change Size <br>
 
 #### Icons
 This projects is using googles material design icon library, so any icon from 
-[https://fonts.google.com/icons?selected=Material+Icons](here) should work.
+[here](https://fonts.google.com/icons?selected=Material+Icons) should work.
 
 Add Icon before text <br>
 `startIcon` | Ex: add_shopping_cart <br>
