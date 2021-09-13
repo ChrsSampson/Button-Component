@@ -1,0 +1,142 @@
+:root{
+    --btn: #E0E0E0;
+    --btn-hover: #AEAEAE;
+    --btn-text: #3F3F3F;
+    --btn-primary: #3D5AFE;
+    --btn-primary-hover: #0039CB;
+    --btn-primary-text: #FFFFFF;
+    --btn-secondary: #455a64;
+    --btn-secondary-hover: #1c313a;
+    --btn-secondary-text: #FFFFFF;
+    --btn-danger: #d32f2f;
+    --btn-danger-hover: #9a0007;
+    --btn-danger-text: #FFFFFF;
+}
+
+
+.Button{
+    padding: .75em 1em;
+    border-radius: 6px;
+    width: 10em;
+    font-family: 'Noto Sans JP', Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: large;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    color: #3F3F3F;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+
+}
+.Button:hover{
+    background: var(--btn-hover);
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    text-align: center !important;
+}
+
+.Button:focus{
+    background: var(--btn-hover);
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    text-align: center !important;
+}
+
+.btn-lg{
+    padding: 1em 1.25em
+}
+.btn-md{
+    padding: .75em 1em;
+}
+.btn-sm{
+    padding: .5em .5em !important;
+    width:6em;
+}
+
+.outline{
+    color: #3D5AFE;
+    background: transparent;
+    border: 1px solid #3D5AFE;
+    border-radius: 6px;
+}
+.outline:hover{
+    background: rgba(41, 98, 255, 0.1);
+    color: #3D5AFE;
+    border: 1px solid #3D5AFE;
+    border-radius: 6px;
+}
+
+.text{
+    color: #3D5AFE;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+.text:hover{
+    background: rgba(41, 98, 255, 0.1);
+    border-radius: 6px;
+}
+
+/* Override classes */
+.noShadow{
+    box-shadow: none !important; 
+}
+
+.disabled{
+    color: var(--btn-hover) !important;
+    padding: .75em 1em;
+    border-radius: 6px;
+    width: 10em;
+    font-family: 'Noto Sans JP', Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: large;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+}
+
+.disabled-text:hover{
+    background: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+.default{
+    background-color: var(--btn-text) !important;
+    color: var(--btn) !important;
+}
+
+.primary{
+    background-color: var(--btn-primary) !important;
+    color: var(--btn-primary-text) !important;
+}
+.primary:hover{
+    background-color: var(--btn-primary-hover) !important;
+}
+
+.secondary{
+    background-color: var(--btn-secondary) !important;
+    color: var(--btn-secondary-text) !important;
+}
+.secondary:hover{
+    background-color: var(--btn-secondary-hover) !important;
+}
+
+.danger{
+    background-color: var(--btn-danger) !important;
+    color: var(--btn-danger-text) !important;
+}
+.danger:hover{
+    background-color: var(--btn-danger-hover) !important;
+}
+
+.icon{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
